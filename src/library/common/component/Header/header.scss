@@ -1,0 +1,14 @@
+.header {
+  background: #191919 !important;
+  height: 60px;
+  width: 100%;
+  z-index: 5;
+
+  .navbar-brand {
+    color: #ffffff;
+
+    &:hover, &:active, &:visited {
+      color: #ffffff;
+    }
+  }
+}

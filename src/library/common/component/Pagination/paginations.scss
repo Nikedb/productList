@@ -1,0 +1,38 @@
+.mainPagination {
+  flex-direction: column;
+  align-items: center;
+
+  .pagination-btn_wrapper {
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+
+    .pagination-btn {
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      border: 1px solid #86929E;
+      background-color: transparent;
+      color: #333333;
+      font-size: 14px;
+      margin-right: 10px;
+
+      &.active {
+        border-color: transparent;
+        color: #ffffff;
+        background-color: #FC7334;
+      }
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+
+
+  }
+
+  .btn {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

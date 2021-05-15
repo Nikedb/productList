@@ -1,0 +1,108 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~font-awesome/scss/font-awesome';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.loader_wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+
+  &.mainLoader {
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+  }
+
+  &.mainLoader {
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+  }
+
+  .spinner-grow {
+    width: 3rem;
+    height: 3rem;
+    z-index: 1032;
+  }
+
+  .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    z-index: 1032;
+  }
+}
+
+input {
+  font-size: 14px !important;
+  border-radius: 20px !important;
+}
+
+.cart {
+  .d-flex {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  img {
+    margin-right: 20px;
+  }
+
+  .fa-trash-o {
+    font-size: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.pl-0 {
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
+.mr10 {
+  margin-right: 5px;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+}
